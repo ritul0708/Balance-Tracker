@@ -1,0 +1,58 @@
+.chartBar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.bars {
+  height: 100%;
+  width: 15px;
+  border: 0.5px solid;
+  border-radius: 1rem;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.barFill {
+  background-color: rgb(0, 71, 0);
+  width: 100%;
+  transition: all 0.3s ease-out;
+}
+
+.barLabel {
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.bars:hover {
+  opacity: 0.5;
+}
+
+.barToolTip{
+  position: absolute;
+  display: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(99, 117, 151);
+  bottom: 50%;
+  border: 0.5px solid rgb(202, 202, 202);
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: rgb(248, 248, 231);
+}
+
+.barToolTip h3{
+  font-size: 14;
+  font-weight: 600;
+}
+
+.bars:hover + .barToolTip {
+  display: block;
+}

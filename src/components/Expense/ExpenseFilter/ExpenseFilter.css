@@ -1,0 +1,26 @@
+.expenseFilter{
+  color: white;
+  padding: 1rem;
+}
+
+.filterControl{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.filterControl label{
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.filterControl select{
+  font: inherit;
+  padding: 0.5rem 3rem;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-right: 1.5rem;
+}

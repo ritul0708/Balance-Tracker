@@ -1,0 +1,18 @@
+.userGreeting {
+  border-radius: 15px;
+  background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+  width: 60%;
+  height: 5rem;
+  text-align: center;
+  align-self: center;
+  margin: auto;
+  display: flex;
+}
+
+.userGreeting .image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
