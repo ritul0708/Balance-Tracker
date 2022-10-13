@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Expenses from "./components/Expense/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense"
-import UserGreeting from "./components/UserGreeting/UserGreeting";
 
 const dummy_data = [
   {
@@ -40,7 +39,6 @@ const App = () => {
   }
   return (
     <div>
-      <UserGreeting />
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses expenses={expense} />
     </div>
